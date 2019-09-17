@@ -1,5 +1,4 @@
 /* all elements rule */
-
 * {
   padding: 0;
   border: 0;
@@ -8,7 +7,6 @@
 }
 
 /* generic rules */
-
 .centered {
   position: absolute;
   top: 50%;
@@ -33,8 +31,7 @@
   color: white;
 }
 
-/* page specific rules */
-
+/* body rules */
 body {
   width: 798px;
   margin: auto;
@@ -42,6 +39,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* header rules */
 header {
   position: relative;
   height: 200px;
@@ -55,6 +53,7 @@ header p {
   font-size: 20px;
 }
 
+/* nav rules */
 nav {
   height: 25px;
   background-color: grey;
@@ -82,6 +81,7 @@ nav li:hover {
   color: white;
 }
 
+/* main rules */
 main {
   margin-top: 14px;
 }
@@ -141,6 +141,7 @@ main p {
   margin: 20px auto;
 }
 
+/* footer rules */
 footer {
   height: 75px;
   margin-bottom: 14px;

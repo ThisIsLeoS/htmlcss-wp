@@ -32,7 +32,7 @@
 /* page specific rules */
 
 body {
-  width: 800px;
+  width: 798px;
   margin: auto;
   background-image: url(../img/background.jpg);
   font-family: 'Roboto', sans-serif;
@@ -52,8 +52,30 @@ header p {
 }
 
 nav {
-  height: 15px;
+  height: 25px;
   background-color: grey;
+}
+
+nav li {
+
+  /* using float left to avoid spaces between <li> elements */
+  float: left;
+
+  display: inline-block;
+  width: 114px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+
+  /* centering text both horizontally and vertically */
+  text-align: center;
+  line-height: 25px;
+
+  cursor: pointer;
+}
+
+nav li:hover {
+  background-color: lightgrey;
+  color: white;
 }
 
 main {

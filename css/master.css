@@ -6,14 +6,15 @@
 }
 
 body {
-  width: 1000px;
+  width: 800px;
   margin: auto;
   background-image: url(../img/background.jpg);
 }
 
 header {
-  height: 100px;
+  height: 200px;
   margin-top: 5px;
+  background-image: url(../img/header-background.jpg);
 }
 
 nav {

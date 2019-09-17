@@ -42,8 +42,8 @@ header {
   position: relative;
 }
 
-header img {
-  margin-top: 25px;
+header p {
+  margin-top: 15px;
 }
 
 nav {
@@ -73,8 +73,8 @@ main:after {
   margin-right: 4%;
 }
 
-header p {
-  margin-bottom: 15px;
+.text-widget {
+  margin-top: 15px;
 }
 
 footer {

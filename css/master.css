@@ -16,6 +16,19 @@ header {
   border: 10px solid white;
   margin-top: 5px;
   background-image: url(../img/header-background.jpg);
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#theme-txt {
+  margin-top: 25px;
 }
 
 nav {
